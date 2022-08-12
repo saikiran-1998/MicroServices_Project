@@ -39,7 +39,7 @@ namespace Orders_API.Services
                     Items = new List<Data.OrderItem>()
                     {
                         new Data.OrderItem() { /*OrderId = 1,*/ ProductId = 1, Quantity = 10, UnitPrice = 10 },
-                        new Data.OrderItem() { /*OrderId = 1,*/ ProductId = 2, Quantity = 10, UnitPrice = 10 },
+                        new Data.OrderItem() { /*OrderId = 1,*/ ProductId = 4, Quantity = 10, UnitPrice = 10 },
                         new Data.OrderItem() { /*OrderId = 1,*/ ProductId = 3, Quantity = 10, UnitPrice = 10 },
                         new Data.OrderItem() { /*OrderId = 2,*/ ProductId = 2, Quantity = 10, UnitPrice = 10 },
                         new Data.OrderItem() { /*OrderId = 3,*/ ProductId = 3, Quantity = 1, UnitPrice = 100 }
@@ -57,7 +57,7 @@ namespace Orders_API.Services
                         new Data.OrderItem() { /*OrderId = 1,*/ ProductId = 2, Quantity = 10, UnitPrice = 10 },
                         new Data.OrderItem() { /*OrderId = 1,*/ ProductId = 3, Quantity = 10, UnitPrice = 10 },
                         new Data.OrderItem() { /*OrderId = 2,*/ ProductId = 2, Quantity = 10, UnitPrice = 10 },
-                        new Data.OrderItem() { /*OrderId = 3,*/ ProductId = 3, Quantity = 1, UnitPrice = 100 }
+                        new Data.OrderItem() { /*OrderId = 3,*/ ProductId = 4, Quantity = 1, UnitPrice = 100 }
                     },
                     Total = 100
                 });
